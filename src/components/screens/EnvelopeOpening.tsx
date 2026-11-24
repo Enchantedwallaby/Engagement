@@ -214,7 +214,7 @@ export const EnvelopeOpening: React.FC<EnvelopeOpeningProps> = ({ language, onCo
                   : 'font-cinzel font-semibold'
               }
             >
-              {isKannada ? '॥ ಶ್ರೀ ಗಣೇಶಾಯ ನಮಃ ॥' : 'ROYAL ENGAGEMENT INVITATION'}
+              {isKannada ? '॥ ಶ್ರೀ ಗಣೇಶಾಯ ನಮಃ ॥' : 'ENGAGEMENT INVITATION'}
             </span>
             <Sparkles className="w-3.5 h-3.5" />
           </div>
@@ -230,7 +230,7 @@ export const EnvelopeOpening: React.FC<EnvelopeOpeningProps> = ({ language, onCo
         {/* 3D Envelope Container (78-84% mobile width, ~290px-320px) */}
         <div
           className="relative w-[84%] max-w-[320px] min-w-[280px] h-[395px] sm:h-[415px] my-auto"
-          style={{ perspective: '1200px', top: '24px' }}
+          style={{ perspective: '1200px', top: 'clamp(32px, 7.8vh, 72px)' }}
         >
           {/* Layer A: Envelope Back Base Plate (z-index: 1) */}
           <div
