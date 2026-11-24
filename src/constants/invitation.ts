@@ -5,7 +5,7 @@ export const INVITATION_DATA = {
     title: 'Groom',
   },
   bride: {
-    fullName: 'Sinchana Shetty',
+    fullName: 'Dr.Sinchana Shetty',
     kannadaName: 'ಸಿಂಚನಾ ಶೆಟ್ಟಿ',
     title: 'Bride',
   },
@@ -17,10 +17,10 @@ export const INVITATION_DATA = {
     timeFormatted: '11:30 AM',
     dayOfWeek: 'Thursday',
     venue: {
-      name: 'Ocean Pearl',
+      name: 'The Ocean Pearl',
       city: 'Ujire',
       state: 'Karnataka',
-      kannadaLocation: 'ಓಷನ್ ಪರ್ಲ್, ಉಜಿರೆ',
+      kannadaLocation: 'ದಿ ಓಷನ್ ಪರ್ಲ್, ಉಜಿರೆ',
     },
   },
   palette: {

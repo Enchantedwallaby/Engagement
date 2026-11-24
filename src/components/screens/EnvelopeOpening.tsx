@@ -214,7 +214,7 @@ export const EnvelopeOpening: React.FC<EnvelopeOpeningProps> = ({ language, onCo
                   : 'font-cinzel font-semibold'
               }
             >
-              {isKannada ? '॥ ಶ್ರೀ ಗಣೇಶಾಯ ನಮಃ ॥' : 'ENGAGEMENT INVITATION'}
+              {isKannada ? '॥ ಓಂ ಶ್ರೀ ಗಣೇಶಾಯ ನಮಃ ॥' : 'ENGAGEMENT INVITATION'}
             </span>
             <Sparkles className="w-3.5 h-3.5" />
           </div>
@@ -223,7 +223,7 @@ export const EnvelopeOpening: React.FC<EnvelopeOpeningProps> = ({ language, onCo
               isKannada ? 'font-kannada text-xs' : 'font-serif italic text-xs'
             } text-brown-muted tracking-wider`}
           >
-            {isKannada ? 'ಶುಭ ನಿಶ್ಚಿತಾರ್ಥ ಆಹ್ವಾನ ಪತ್ರಿಕೆ' : 'A special invitation awaits you'}
+            {isKannada ? 'ನಿಶ್ಚಿತಾರ್ಥದ ಕರೆಯೋಲೆ' : 'A special invitation awaits you'}
           </p>
         </div>
 
@@ -326,14 +326,14 @@ export const EnvelopeOpening: React.FC<EnvelopeOpeningProps> = ({ language, onCo
                     : 'font-cinzel text-sm sm:text-base font-bold'
                 } text-brown-deep tracking-wide leading-relaxed`}
               >
-                {isKannada ? 'ಸಿಂಚನಾ ಶೆಟ್ಟಿ' : 'SINCHANA SHETTY'}
+                {isKannada ? 'ಡಾ. ಸಿಂಚನಾ ಶೆಟ್ಟಿ' : 'Dr.SINCHANA SHETTY'}
               </h2>
               <div className="w-12 h-[1px] bg-gradient-to-r from-transparent via-gold-champagne to-transparent mx-auto my-1.5" />
               <p className="text-[11.5px] font-serif italic text-brown-muted font-medium">
                 {isKannada ? '24 ಡಿಸೆಂಬರ್ 2026' : 'Thursday, 24 December 2026'}
               </p>
               <p className="text-[10.5px] font-sans text-gold-antique mt-0.5 font-medium">
-                {isKannada ? 'ಓಷನ್ ಪರ್ಲ್, ಉಜಿರೆ' : 'Ocean Pearl, Ujire'}
+                {isKannada ? 'ದಿ ಓಷನ್ ಪರ್ಲ್, ಉಜಿರೆ' : 'The Ocean Pearl, Ujire'}
               </p>
             </div>
 
